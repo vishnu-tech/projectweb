@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+
+body{
+    background-color: #F4EDCC;
+    background-image: url('Live ventures_altered.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    /* background-size: cover; */
+    background-position-x: 50%;  
+    background-position-y: 320px;
+    
+
+    
+      
+} 
+
+
+#hed{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400; 
+    font-size: 50px;
+    color: #263940;
+}
+
+#hed2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400; 
+    font-size: 30px;
+
+}
+
+#box1{
+    width: 500px;
+    color: black;
+    background: transparent;
+    border: 3px solid rgba(38, 57, 64, .2);
+    backdrop-filter:blur(5px);
+    /* opacity:0.2; */
+    border-radius: 10px;
+    height: auto;
+    
+}
+
+
+.fon{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400; 
+    font-size: 20px; 
+}
+
+
+
+/* .form-group input:focus{
+    outline: none;
+    border-color: green;
+} */
+
+/* .error{
+    color: red;
+    height: 14px;
+} */
+
+
+.form-group i{
+    visibility: hidden;
+    position: absolute;
+    top: 45px;
+    right: 20px;
+
+}
+
+
+
+.form-group {
+    position: relative;
+}
+
+.form-group.success i.fa-check-circle{
+    color: green;
+    visibility: visible;
+}
+
+.form-group.error i.fa-exclamation-circle{
+    color: red;
+    visibility: visible;
+}
+
+.form-group small{
+    color: red;
+    
+    /* position: absolute; */
+    left: 260px;
+    /* visibility: hidden; */
+    /* bottom: 2px; */
+}
+
+/* .form-group.error small{
+    visibility: visible;
+} */
+
+.form-group.error input{
+    border-color: red;
+
+}
+
+.form-group small input{
+    border-color: red;
+}
+
+
+.form-group.success input{
+    border-color: green;
+}
+
+/* .form-group small input{
+    border-color: green;
+}  */
+

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* TOP SECTION */
+#title{
+    background-color: #F4EDCC;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand img{
+    width: 125px;
+    height: auto;
+}
+
+/* TITLE NAME BELOW SECTION */
+
+p#title-below{
+    position: absolute;
+    font-size: 18px;
+    left: 145px;
+    top: 90px;
+}
+
+a.navbar-brand {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400; 
+    font-size: 50px;
+    position: relative;
+}
+
+
+/* NAV CONTENT SECTION LIES AS OF FLEX */
+.push-left{
+    justify-content: center;
+}
+
+.nav-item a{
+    /* font-family:  */
+    font-size: 24px;
+}
+
+
+
+
+
+/* .font-top{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400; 
+    /* background-color:white; 
+    font-size: 10px;
+} */
+
+
+.login{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #263940;
+    color:#F4EDCC;
+
+} 
+
+span#line{
+    border-bottom: 2px solid #263940;
+    /* color: #F4EDCC; */
+
+}
+
+
+
+
+/* FOOTER SECTION STARTS HERE */
+
+footer {  
+    /* background: rgb(9, 95, 234);   */
+    background-color: #F4EDCC;
+     color: #263940;  
+     margin-top:100px;  
+}  
+footer a {  
+     color: #263940;  
+     font-size: 14px;  
+     text-decoration: none;
+     /* transition-duration: 0.2s;   */
+}  
+footer a:hover {  
+    color: white;  
+    text-decoration: none;  
+}  
+.copy {  
+    font-size: 12px;  
+    padding: 10px;  
+    border-top: 1px solid #263940;  
+}  
+.footer-middle {  
+     padding-top: 2em;  
+     color: #263940;  
+}  
+ul.social-network {  
+     list-style: none;  
+     display: inline;  
+     margin-left: 0 !important;  
+     padding: 0;  
+}  
+ul.social-network li {  
+     display: inline;  
+     margin: 0 5px;  
+}  
+
+.social-circle li a {  
+     display: inline-block;  
+     position: relative;  
+     margin: 0 auto 0 auto;  
+     -moz-border-radius: 50%;  
+     -webkit-border-radius: 50%;  
+     border-radius: 50%;  
+     text-align: center;  
+     width: 30px;  
+     height: 30px;  
+     font-size: 15px;  
+}  
+
+.social-circle i {  
+    color: #263940;  
+}  
+.social-network a {  
+    background-color: #F4EDCC;  
+}  
+   
+/* MOBILE RESPONSIVE FOR IPHONE 12 PRO */
+@media only screen and (max-width: 390px) {
+
+    a.navbar-brand{
+        font-size: 25px;
+    }
+    
+    p#title-below{
+        font-size:12px;
+        left: 136px;
+    }
+  }
+

@@ -1,0 +1,30 @@
+body{
+    background-color: #f4edcc;
+}
+
+
+.siz{
+    font-size: 80px;
+}
+
+
+#errorMessage{
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+/* #hig{
+    height: 50px;
+}
+
+#hig2{
+    height: 80px;;
+}
+
+#hig3{
+    height: 50px;
+} */
+
